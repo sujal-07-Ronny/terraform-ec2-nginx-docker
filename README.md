@@ -101,7 +101,6 @@ terraform-ec2-nginx-docker/
 | Challenge | Solution |
 |---|---|
 | App not accessible after deployment | Fixed missing route config in Nginx |
-| Docker permission denied error | Added user to docker group |
 | SSL certificate failure | Fixed missing DNS A record pointing to EC2 IP |
 
 ---
