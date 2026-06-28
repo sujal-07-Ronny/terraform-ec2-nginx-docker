@@ -11,7 +11,7 @@ resource "aws_security_group" "web_sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"] # For demo
+    cidr_blocks = ["0.0.0.0/0"] # Demo purpose only — production mein restricted access use karenge |
   }
 
   ingress {
